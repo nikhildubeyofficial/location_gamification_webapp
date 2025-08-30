@@ -1,0 +1,19 @@
+{
+  "name": "gamified-fitness-app",
+  "version": "1.0.0",
+  "description": "Gamified fitness web app with Three.js, Mappls APIs, and full backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["fitness", "gamification", "three.js", "mappls", "react"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
